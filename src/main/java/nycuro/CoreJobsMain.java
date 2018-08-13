@@ -6,6 +6,7 @@ import nycuro.api.JobsAPI;
 import nycuro.api.MessageAPI;
 import nycuro.commands.list.JobCommand;
 import nycuro.jobs.handlers.JobsHandlers;
+import nycuro.utils.Settings;
 
 import java.io.File;
 
@@ -17,6 +18,7 @@ import java.io.File;
 public class CoreJobsMain extends PluginBase {
 
     public Config jobs;
+    public Config settings;
 
     @Override
     public void onLoad() {
@@ -57,5 +59,11 @@ public class CoreJobsMain extends PluginBase {
                 Config.YAML);
         this.jobs = jobs;
         jobs.save();
+        Config settings = new Config(
+                new File(this.getDataFolder(), "config.yml"),
+                Config.YAML);
+        this.settings = settings;
+        settings.save();
+        Settings.init(settings);
     }
 }
