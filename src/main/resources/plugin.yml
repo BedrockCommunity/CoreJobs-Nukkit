@@ -1,0 +1,17 @@
+name: NycuRO-FactionsCore
+main: nycuro.MainFC
+version: "0.1-DEV"
+api: ["1.0.0"]
+author: NycuRO
+description: NycuRO-Factions Core
+
+commands:
+  job:
+    description: Select a Job
+    usage: "/job"
+    permission: core.job
+
+permissions:
+  core.job:
+    description: "Teleport to Spawn!"
+    default: true
