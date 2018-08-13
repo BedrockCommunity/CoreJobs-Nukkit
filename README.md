@@ -14,3 +14,5 @@ I'm planning add:
 - MultiLanguage Support (Messages + API for custom plugins for their Core).
 
 I don't tested, just code re-writed from my core.
+
+If anyone find errors or tested plugin, just make a "Message" on Issue to know if works or not.

@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235f5376-36bb-4df3-8de7-d26cdb67d34a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CoreJobs-Nukkit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/CoreJobsAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/CoreJobsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/api/JobsAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/api/MessageAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/commands/PrincipalCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/commands/list/JobCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/gui/handlers/GUIHandlers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/gui/list/DelegateFormWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/gui/list/ResponseFormWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nycuro/jobs/handlers/JobsHandlers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nycuro/utils/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nycuro/utils/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="235f5376-36bb-4df3-8de7-d26cdb67d34a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -441,7 +421,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -451,7 +430,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14427084" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
