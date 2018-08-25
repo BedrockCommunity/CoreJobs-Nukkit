@@ -1,9 +1,9 @@
-name: NycuRO-FactionsCore
-main: nycuro.MainFC
-version: "0.1-DEV"
+name: CoreJobs-Nukkit
+main: nycuro.CoreJobsMain
+version: "1.0"
 api: ["1.0.0"]
 author: NycuRO
-description: NycuRO-Factions Core
+description: Very Basic plugin Jobs for Nukkit with Forms. More coming soon.
 
 commands:
   job:

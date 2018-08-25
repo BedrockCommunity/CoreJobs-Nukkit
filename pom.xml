@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <!-- Don't use the Nukkit namespace for your own plugins -->
     <groupId>nycuro</groupId>
-    <artifactId>nycuro</artifactId>
+    <artifactId>CoreJobs-Nukkit</artifactId>
     <version>1.0</version>
     <name>CoreJobs-Nukkit</name>
     <description>CoreJobs-Nukkit</description>
