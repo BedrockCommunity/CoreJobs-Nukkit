@@ -3,7 +3,6 @@ package nycuro.commands.list;
 import cn.nukkit.Player;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.command.ConsoleCommandSender;
-import cn.nukkit.scheduler.Task;
 import nycuro.CoreJobsAPI;
 import nycuro.commands.PrincipalCommand;
 

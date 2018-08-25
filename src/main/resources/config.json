@@ -1,0 +1,18 @@
+{
+  "messages": {
+    "consoleMessage"        : "&cYou can't use this command as Console Command Sender.",
+    "messageTitleJobWindow" : "Hello!",
+    "receiveJob"            : "&7» &3You have successfully selected Job: &b%job &3!",
+    "withoutJobTitleWindow" : "Without Job Option",
+    "withoutJobMessage"     : "&7» &3From now, you don't have One Job &3!"
+  },
+  "icons": {
+    "lumberJackIcon"        : "https://i.imgur.com/uWmtrax.png",
+    "minerIcon"             : "https://i.imgur.com/XFCYdCz.png",
+    "farmerIcon"            : "https://i.imgur.com/otMDlEU.png",
+    "killerIcon"            : "https://i.imgur.com/YHkAa4q.png",
+    "hunterIcon"            : "https://i.imgur.com/HpwAZvq.png",
+    "infoIcon"              : "https://i.imgur.com/nujWKR3.png",
+    "withoutJobIcon"        : "https://i.imgur.com/YXBNPBc.png"
+  }
+}

@@ -2,6 +2,7 @@ package nycuro;
 
 import nycuro.api.JobsAPI;
 import nycuro.api.MessageAPI;
+import nycuro.utils.Settings;
 
 /**
  * author: NycuRO
@@ -16,9 +17,12 @@ public class CoreJobsAPI {
 
     public static JobsAPI jobsAPI;
 
+    public static Settings settingsAPI;
+
     public static CoreJobsMain getMainAPI() {
         return mainAPI;
     }
+
     public static MessageAPI getMessageAPI() {
         return messageAPI;
     }
@@ -26,4 +30,6 @@ public class CoreJobsAPI {
     public static JobsAPI getJobsAPI() {
         return jobsAPI;
     }
+
+    public static Settings getSettingsAPI() { return settingsAPI; }
 }

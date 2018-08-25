@@ -18,7 +18,6 @@ import java.io.File;
 public class CoreJobsMain extends PluginBase {
 
     public Config jobs;
-    public Config settings;
 
     @Override
     public void onLoad() {
@@ -46,6 +45,7 @@ public class CoreJobsMain extends PluginBase {
         CoreJobsAPI.mainAPI = this;
         CoreJobsAPI.messageAPI = new MessageAPI();
         CoreJobsAPI.jobsAPI = new JobsAPI();
+        CoreJobsAPI.settingsAPI = new Settings();
     }
 
     private void registerEvents() {
@@ -59,11 +59,6 @@ public class CoreJobsMain extends PluginBase {
                 Config.YAML);
         this.jobs = jobs;
         jobs.save();
-        Config settings = new Config(
-                new File(this.getDataFolder(), "config.yml"),
-                Config.YAML);
-        this.settings = settings;
-        settings.save();
-        Settings.init(settings);
+        CoreJobsAPI.getSettingsAPI().init();
     }
 }
