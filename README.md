@@ -12,6 +12,7 @@ I'm planning add:
 - BossBar when you use a job.
 - Experience System.
 - MultiLanguage Support (Messages + API for custom plugins for their Core).
+- Json Config *It's better*
 
 I don't tested, just code re-writed from my core.
 
